@@ -5,9 +5,9 @@
 	"require": {
 		"greenpeace/planet4-child-theme" : "0.2.11",
 		"wpackagist-plugin/sendgrid-email-delivery-simplified":"1.11.8",
-		"wpackagist-plugin/wpdatatables":"2.013",
 		"wpackagist-plugin/contact-form-7":"5.1.4",
-		"wpackagist-plugin/gdpr-cookie-compliance":"2.1.6"
+		"wpackagist-plugin/gdpr-cookie-compliance":"2.1.6",
+		"wpackagist-plugin/advanced-custom-fields-contact-form-7-field":"1.1.2"
 	},
 	"scripts": {
 		"site:custom" : []
