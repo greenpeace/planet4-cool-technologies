@@ -1,0 +1,28 @@
+{
+	"name": "greenpeace/gpi-cooltech-wp-theme",
+	"description": "Master theme for the Cooltech database on Wordpress project",
+	"type":"wordpress-theme",
+	"minimum-stability" : "stable",
+	"authors": [
+		{
+			"name": "Greenpeace International",
+			"email": "tzetterl@greenpeace.org"
+		}
+	],
+	"license": "MIT",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		},
+		{
+			"type": "composer",
+			"url": "https://packagist.org"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/greenpeace/gpi-cooltech-wp-theme/issues",
+		"wiki": "https://github.com/greenpeace/gpi-cooltech-wp-theme/wiki",
+		"source": "https://github.com/greenpeace/gpi-cooltech-wp-theme"
+	}
+}
