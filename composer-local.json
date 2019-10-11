@@ -7,10 +7,10 @@
 		"greenpeace/planet4-master-theme" : "dev-develop",
 		"greenpeace/planet4-plugin-blocks" : "dev-develop",
 		"wpackagist-plugin/sendgrid-email-delivery-simplified":"1.11.8",
-		"wpackagist-plugin/greenpeace/gpi-cooltech-wp-theme" : "dev-develop",
 		"wpackagist-plugin/contact-form-7":"5.1.4",
 		"wpackagist-plugin/gdpr-cookie-compliance":"2.1.6",
-		"wpackagist-plugin/advanced-custom-fields":"5.8.3"
+		"wpackagist-plugin/advanced-custom-fields":"5.8.3",
+		"wpackagist-plugin/greenpeace/gpi-cooltech-wp-theme" : "v0.1"
 	},
 	"scripts": {
 		"site:custom" : []
