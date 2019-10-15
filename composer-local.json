@@ -3,6 +3,7 @@
 	"description": "Greenpeace P4 Cool Technologies",
 	"license": "MIT",
 	"require": {
+		"greenpeace/gpi-cooltech-wp-theme" : "v0.2",
 		"greenpeace/planet4-child-theme" : "0.2.11",
 		"wpackagist-plugin/sendgrid-email-delivery-simplified":"1.11.8",
 		"wpackagist-plugin/contact-form-7":"5.1.4",
