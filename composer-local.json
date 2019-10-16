@@ -14,7 +14,7 @@
 	},
 	"scripts": {
 		"site:custom" : [
-			"wp plugin uninstall timber-library"
+			"wp plugin uninstall --deactivate timber-library"
 		]
 	}
 }
