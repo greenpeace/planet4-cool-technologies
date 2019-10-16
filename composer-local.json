@@ -13,6 +13,8 @@
 		"wpackagist-plugin/advanced-custom-fields":"5.8.3"
 	},
 	"scripts": {
-		"site:custom" : []
+		"site:custom" : [
+			"wp plugin uninstall timber"
+		]
 	}
 }
