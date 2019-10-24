@@ -10,7 +10,7 @@
 		"wpackagist-plugin/gdpr-cookie-compliance":"2.1.6",
 		"wpackagist-plugin/advanced-custom-fields":"5.8.3",
 		"wpackagist-plugin/ajax-search-lite":"4.8",
-		"wpackagist-plugin/amcharts-charts-and-maps":"1.2.3",
+		"wpackagist-plugin/amcharts-charts-and-maps":"1.2.3"
 	},
 	"scripts": {
 		"site:custom" : []
