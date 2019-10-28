@@ -3,11 +3,11 @@ version: 2
 
 defaults: &defaults
   docker:
-    - image: gcr.io/planet-4-151612/p4-builder:latest
+    - image: greenpeaceinternational/p4-builder:latest
 
 job_environments:
   common_environment: &common_environment
-    APP_HOSTPATH: 
+    APP_HOSTPATH:
     CONTAINER_PREFIX: planet4-cool-technologies
     WP_DB_NAME_PREFIX: planet4-cool-tec_wordpress
   develop_environment: &develop_environment
@@ -33,7 +33,7 @@ job_environments:
     WP_DB_NAME: planet4-cool-tec_wordpress_release
     WP_STATELESS_BUCKET: planet4-cool-technologies-stateless-release
   production_environment: &production_environment
-    APP_HOSTNAME: prod.cooltech.p4.greenpeace.org
+    APP_HOSTNAME: cooltechnologies.org
     CLOUDSQL_INSTANCE: planet4-prod
     GCLOUD_CLUSTER: planet4-production
     GOOGLE_PROJECT_ID: planet4-production
