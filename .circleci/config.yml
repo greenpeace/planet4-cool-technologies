@@ -10,6 +10,7 @@ job_environments:
     APP_HOSTPATH:
     CONTAINER_PREFIX: planet4-cool-technologies
     WP_DB_NAME_PREFIX: planet4-cool-tec_wordpress
+    FORCE_ACTIVATE_PLUGINS: false
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: dev.cooltech.p4.greenpeace.org
