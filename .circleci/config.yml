@@ -265,7 +265,7 @@ workflow_definitions:
       branches:
         ignore: /.*/
       tags:
-        only: /sync.*/
+        only: /^sync.*/
 
 workflows:
   version: 2
