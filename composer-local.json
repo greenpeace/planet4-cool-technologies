@@ -3,13 +3,14 @@
 	"description": "Greenpeace P4 Cool Technologies",
 	"license": "MIT",
 	"require": {
-		"greenpeace/gpi-cooltech-wp-theme" : "v1.2.0",
+		"greenpeace/gpi-cooltech-wp-theme" : "dev-master",
 		"greenpeace/gpi-cooltech-importer" : "v0.2",
-		"wpackagist-plugin/contact-form-7":"5.1.5",
-		"wpackagist-plugin/advanced-custom-fields":"5.8.7",
+		"wpackagist-plugin/contact-form-7":"5.1.*",
+		"wpackagist-plugin/advanced-custom-fields":"5.8.*",
 		"wpackagist-plugin/ajax-search-lite":"4.8",
 		"wpackagist-plugin/amcharts-charts-and-maps":"1.2.3",
-		"pixelstudio/google-site-kit":"1.0.7",
+		"wpackagist-plugin/taxonomy-terms-order":"1.5.7",
+		"pixelstudio/google-site-kit":"1.0.*",
 		"mcguffin/wp-recaptcha-integration":"v1.3.1"
 	},
 	"scripts": {
