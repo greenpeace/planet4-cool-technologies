@@ -1,9 +1,15 @@
 ---
 version: 2
 
+docker_auth: &docker_auth
+    username: $DOCKERHUB_USERNAME
+    password: $DOCKERHUB_PASSWORD
+
 defaults: &defaults
   docker:
     - image: greenpeaceinternational/p4-builder:latest
+      auth:
+        <<: *docker_auth
 
 job_environments:
   common_environment: &common_environment
