@@ -45,6 +45,8 @@ job_environments:
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: cool-technologies
     HELM_RELEASE: planet4-cool-technologies-release
+    MIN_REPLICA_COUNT: 1
+    MAX_REPLICA_COUNT: 1
     NEWRELIC_APPNAME: P4 Cool Technologies Release
     WP_DB_NAME: planet4-cool-tec_wordpress_release
     WP_STATELESS_BUCKET: planet4-cool-technologies-stateless-release
@@ -55,7 +57,8 @@ job_environments:
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: cool-technologies
     HELM_RELEASE: planet4-cool-technologies-master
-    MIN_REPLICA_COUNT: 2
+    MIN_REPLICA_COUNT: 1
+    MAX_REPLICA_COUNT: 1
     NEWRELIC_APPNAME: P4 Cool Technologies Production
     WP_DB_NAME: planet4-cool-tec_wordpress_master
     WP_STATELESS_BUCKET: planet4-cool-technologies-stateless
