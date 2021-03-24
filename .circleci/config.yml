@@ -407,13 +407,6 @@ workflows:
             - hold-production
 
   sync-from-production:
-    triggers:
-      - schedule:
-          cron: "10 01 1 * *"
-          filters:
-            branches:
-              only:
-                - master
     jobs:
       - create-sync-sql:
           context: org-global
