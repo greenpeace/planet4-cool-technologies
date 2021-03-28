@@ -274,9 +274,10 @@ jobs:
           at: /tmp/workspace
       - run:
           name: Configure
-          command: activate-gcloud-account.sh
+          command: |
+            ${HOME}/scripts/activate-gcloud-account.sh
       - run: echo $SQLPROXY_KEY | base64 -d > key.json
-      - run: sql_create_sync_file.sh
+      - run: /home/circleci/sql_create_sync_file.sh
 
   sync-to-staging:
     <<: *defaults
@@ -290,9 +291,10 @@ jobs:
           at: /tmp/workspace
       - run:
           name: Configure
-          command: activate-gcloud-account.sh
+          command: |
+            ${HOME}/scripts/activate-gcloud-account.sh
       - run: echo $SQLPROXY_KEY | base64 -d > key.json
-      - run: sql_to_sync_site.sh release
+      - run: /home/circleci/sql_to_sync_site.sh release
 
   sync-to-develop:
     <<: *defaults
@@ -306,9 +308,10 @@ jobs:
           at: /tmp/workspace
       - run:
           name: Configure
-          command: activate-gcloud-account.sh
+          command: |
+            ${HOME}/scripts/activate-gcloud-account.sh
       - run: echo $SQLPROXY_KEY | base64 -d > key.json
-      - run: sql_to_sync_site.sh develop
+      - run: /home/circleci/sql_to_sync_site.sh develop
 
   notify-sync:
     <<: *defaults
@@ -319,7 +322,7 @@ jobs:
     steps:
       - checkout
       - run: activate-gcloud-account.sh
-      - run: notify-sync-admins.sh
+      - run: /home/circleci/notify-sync-admins.sh
 
   backup:
     docker:
