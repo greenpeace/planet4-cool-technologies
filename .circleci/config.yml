@@ -84,7 +84,7 @@ job_definitions:
       - run: make checkout
       - run: make rewrite-app-repos
       - run: make copy
-        # - run: make bake
+      - run: make bake
       - run: make persist
       - run: make build
       - run: make push
