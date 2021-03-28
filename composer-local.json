@@ -10,7 +10,6 @@
 		"wpackagist-plugin/ajax-search-lite":"4.8",
 		"wpackagist-plugin/amcharts-charts-and-maps":"1.2.3",
 		"wpackagist-plugin/simple-taxonomy-ordering":"2.1.0",
-		"wpackagist-plugin/custom-post-type-changer":"1.0",
 		"pixelstudio/google-site-kit":"1.0.*",
 		"mcguffin/wp-recaptcha-integration":"v1.3.1"
 	},
