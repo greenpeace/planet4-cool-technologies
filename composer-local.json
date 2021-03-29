@@ -11,9 +11,7 @@
 		"wpackagist-plugin/amcharts-charts-and-maps":"1.2.3",
 		"wpackagist-plugin/simple-taxonomy-ordering":"2.1.0",
 		"pixelstudio/google-site-kit":"1.0.*",
-		"mcguffin/wp-recaptcha-integration":"v1.3.1",
-		"greenpeace/planet4-master-theme" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master"
+		"mcguffin/wp-recaptcha-integration":"v1.3.1"
 	},
 	"scripts": {
 		"site:custom" : []
